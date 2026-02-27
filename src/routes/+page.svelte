@@ -45,7 +45,7 @@
 			title: 'Puppy Essentials',
 			description: 'The ultimate toolkit for shaping the perfect puppy. Navigate puppyhood with confidence.',
 			price: '$297',
-			videoId: '_IVbzeJrIHw',
+			videoId: '-mC73H9Mw3M',
 			link: 'https://www.diyk9.com/a/2147531877/ozD5mSCE',
 			features: [
 				'Potty training mastery',
@@ -110,20 +110,71 @@
 		{
 			id: 'behavior',
 			tag: 'Behavior',
-			title: 'Behavior Solutions',
-			description: 'Address reactivity, aggression, and problem behaviors. Specialized protocols for challenging dogs.',
+			title: 'Puppy biting & manners',
+			description: 'Learn how to handle common puppy issues and lay the groundwork for a bond that lasts a lifetime',
 			price: '$297',
 			videoId: 'LuU9Qxe2rUg',
 			link: 'https://www.diyk9.com/a/2147531882/ozD5mSCE',
 			features: [
-				'Reactivity protocols',
-				'Aggression management',
-				'Behavior modification',
-				'Anxiety solutions',
+				'Puppy biting',
+				'jumping',
+				'chewing',
+				'excessive barking',
 				'Expert guidance included'
 			],
-			modalCta: 'Transform problem behaviors into confident obedience'
-		}
+			modalCta: 'Turning chaotic play into polite behavior'
+		},
+		{
+			id: 'potty',
+			tag: 'Potty Training',
+			title: 'Potty Training',
+			description: 'Ready to master potty training?',
+			price: '$119',
+			videoId: 'bBiMMM-YUWY',
+			link: 'https://www.diyk9.com/a/2147531883/ozD5mSCE',
+			features: [
+				'No more mess',
+				'Rapid Results',
+				'Stable Schedule',
+				'Zero Accidents',
+				'Trustworthy Behavior'
+			],
+			modalCta: 'Get quick results with Potty Training  in just 48 hours'
+		},
+		{
+			id: 'crate',
+			tag: 'Crate Foundation',
+			title: 'Crate Training',
+			description: 'From selecting the ideal crate to crafting a routine your dog will love!',
+			price: '$119',
+			videoId: '_IVbzeJrIHw',
+			link: 'https://www.diyk9.com/a/2147531884/ozD5mSCE',
+			features: [
+				'Effortless Entries',
+				'Quite Evenings at Home',
+				'Chew Free Zone',
+				'Solo Success',
+				'Spotless Crate Space'
+			],
+			modalCta: 'Shows you how to turn your crate into a haven of calm for your dog or puppy, even when you’re not home.'
+		},
+		{
+			id: 'leashed',
+			tag: 'Leash Skills',
+			title: 'Leashed',
+			description: 'Reliable On-Leash Obedience',
+			price: '$397',
+			videoId: 'hyClJaf7Cas',
+			link: 'https://www.diyk9.com/a/2147511575/ozD5mSCE',
+			features: [
+				'Consistent Obedience',
+				'Social Success',
+				'Calm, Controlled behavior',
+				'Happy Bonding',
+				'Leash Leader'
+			],
+			modalCta: 'Master on-leash obedience for a dog or puppy that listens to you every time.'
+		},
 	];
 	
 	const reviews = [
@@ -486,7 +537,13 @@
 			</a>
 		</div>
 		
-		<div class="footer-logo">{isLostBoysTheme ? 'Lost Boys K9' : 'DIY K9'}</div>
+		<div class="footer-logo">
+			{#if isLostBoysTheme}
+				Lost Boys K9
+			{:else}
+				<a href="https://www.diyk9.com/a/2147833658/ozD5mSCE" target="_blank" rel="noopener noreferrer" class="footer-logo-link">DIY K9</a>
+			{/if}
+		</div>
 		
 		<p class="footer-disclosure">
 			<strong>Affiliate Disclosure:</strong> I earn a commission when you purchase through my links 

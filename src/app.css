@@ -1037,6 +1037,20 @@ body {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+.footer-logo-link {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .footer-disclosure {
   font-size: 0.85rem;
